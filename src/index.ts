@@ -1,4 +1,4 @@
 function a() {
-  const b = 'fdafdsa';
+     const b = 'fdafdsa';
   console.log('fdasdf');
 }
