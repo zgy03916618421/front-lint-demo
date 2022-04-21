@@ -11,7 +11,8 @@
     "lint-staged": "^12.4.0",
     "prettier": "^2.6.2",
     "stylelint": "^14.7.1",
-    "stylelint-config-standard": "^25.0.0"
+    "stylelint-config-standard": "^25.0.0",
+    "eslint-plugin-prettier": "^4.0.0"
   },
   "dependencies": {
     "eslint-plugin-prettier": "^4.0.0"
