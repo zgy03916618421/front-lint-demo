@@ -17,6 +17,7 @@
   "husky": {
     "hooks": {
       "pre-commit": "ls",
+      
       "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
     }
   },
