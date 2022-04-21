@@ -1,5 +1,5 @@
 function a() {
   const b = 'fdafdsa';
-  const Token_Access;
+  const token_ccess = 'aa';
   console.log('fdasdf');
 }
