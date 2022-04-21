@@ -24,7 +24,8 @@
     "**/*.{js,jsx,ts,tsx}": [
       "eslint --fix",
       "prettier --write",
-      "git add"
+      "git add",
+      "echo hello"
     ],
     "*.{htm,html,css,sss,less,scss,sass}": [
       "stylelint --fix",
