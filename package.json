@@ -22,10 +22,10 @@
   },
   "lint-staged": {
     "**/*.{js,jsx,ts,tsx}": [
+      "echo hello",
       "eslint --fix",
       "prettier --write",
-      "git add",
-      "echo hello"
+      "git add"
     ],
     "*.{htm,html,css,sss,less,scss,sass}": [
       "stylelint --fix",
