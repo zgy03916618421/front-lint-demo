@@ -14,12 +14,6 @@
     "stylelint": "^14.7.1",
     "stylelint-config-standard": "^25.0.0"
   },
-  "husky": {
-    "hooks": {
-      "pre-commit": "ls",
-      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
-    }
-  },
   "lint-staged": {
     "*.{js,jsx,ts,tsx}": [
       "eslint --fix",
@@ -30,6 +24,7 @@
     ]
   },
   "scripts": {
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "lint": "lint-staged"
   }
 }
