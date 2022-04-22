@@ -8,7 +8,7 @@
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-react": "^7.29.4",
-    "husky": "^4",
+    "husky": "^7.0.0",
     "lint-staged": "^12.4.0",
     "prettier": "^2.0.1",
     "stylelint": "^14.7.1",
@@ -16,8 +16,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "lint-staged",
-
+      "pre-commit": "ls",
       "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
     }
   },
@@ -29,5 +28,8 @@
     "*.{htm,html,css,sss,less,scss,sass}": [
       "stylelint --fix"
     ]
+  },
+  "scripts": {
+    "prepare": "husky install"
   }
 }
