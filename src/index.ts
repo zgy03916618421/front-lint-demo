@@ -1,8 +1,7 @@
 function a() {
   b();
   const token_ccess = 'aa';
-
-  console.log('fdasdf');
+  console.log('fdasdfs');
 }
 
 function b() {
